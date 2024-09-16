@@ -6,7 +6,7 @@ SET apex=r5apex_dx12.exe
 REM this is path to where apex exe is
 SET apexPath=C:\Steam\steamapps\common\Apex Legends\
 
-REM Things to start back up after Apex is turend off
+REM Things to start back up after Apex is turend off, you can add more variables here for multiple scripts and then add multiple starts at the end
 SET script1=C:\path\to\your\script.ahk
 
 
@@ -33,4 +33,4 @@ IF ERRORLEVEL 1 (
 :CONTINUE
 Echo Apex is off, turning AHK stuff back on:
 Start "" "%script1%"
-Start "" "%script2%"
+
