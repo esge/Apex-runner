@@ -4,7 +4,7 @@ REM if you are using dx11 then apex needs to be set to r5apex.exe, if you are us
 SET apex=r5apex_dx12.exe
 
 REM this is path to where apex exe is
-SET apexPath=C:\Steam\steamapps\common\Apex Legends\
+SET apexPath=D:\Online Games\apex\Apex\
 
 REM Things to start back up after Apex is turend off, you can add more variables here for multiple scripts and then add multiple starts at the end
 SET script1=C:\path\to\your\script.ahk
